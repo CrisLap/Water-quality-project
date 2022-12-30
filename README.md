@@ -6,7 +6,7 @@ Your task will be to follow each point and comment on it, showing me that you un
  
 EDA <br>
 First of all, divide the dataset into a training part and a testing part. Start analysing the dataset. Pay attention to which dataset to use for each point (training, test or all?). Among other things, also consider:<br>
-- Are outliers present (check feature by feature and plot feature values vs. classes)? If yes, what percentage? Find here https://machinelearningmastery.com/model-based-outlier-detection-and-removal-in-python/ some ways of identifying outliers. <br>
+- Are outliers present (check feature by feature and plot feature values vs. classes)? If yes, what percentage? <br>
 - The various features may have very different values. This is not good for almost any ML algorithm, so consider applying a Standardisation to the dataset, such as StandardScaler(). Be careful to exclude the label column! <br>
 Then ask yourself the following questions: <br>
 - Are there any features with missing values? What do you do? Comment on your analysis clearly. <br>
@@ -27,4 +27,5 @@ Therefore perform the following procedure for both paths, first with 1) then wit
 2- Then carry out a tuning of the hyper-parameters on these two best models, e.g. using a grid search and always cross validation as an evaluation method (there is a GridSearchCV method on sklearn). You should now be in a position to know the best hyperparameters for both selected models. <br>
 Now evaluate the two models on the hitherto unused test set. You will see which one performs better by comparing the values of the chosen metrics. <br>
 Final Evaluation<br>
-Now compare routes 1) and 2) and obtain the best model. Make a final discussion about the problem and the solution found.
+Now compare routes 1) and 2) and obtain the best model. Make a final discussion about the problem and the solution found. <br>
+Notes: I suggest to open the notebook with nbviewer at this link: 
